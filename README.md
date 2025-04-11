@@ -68,15 +68,15 @@ This project is a combination of data analysis and web development, built using:
 
   **In VS Code**
   
-      --> Open your project folder 
+       Open your project folder 
       
-      --> Run this command in terminal  "python app.py"
+       Run this command in terminal  "python app.py"
       
    **cmd**
    
-     --> cd "your project folder path"
+       cd "your project folder path"
      
-     --> python app.py 
+       python app.py 
 
 
 
