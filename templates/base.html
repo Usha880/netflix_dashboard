@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>📺 Netflix Data Dashboard</h1>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer style="margin-top: 50px; padding: 20px 0; background-color: #111; color: white; text-align: center;">
+        Made with ❤️ by <span style="color: #ff4c4c; font-weight: bold;">Usha Naidu</span>
+    </footer>
+</body>
+</html>

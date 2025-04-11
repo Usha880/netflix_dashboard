@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="plot-section">
+    <h2>Top Genres</h2>
+    <img src="{{ url_for('static', filename='../static/genre_plot.png') }}" alt="Genre Plot">
+</section>
+
+<section class="plot-section">
+    <h2>Movies vs TV Shows Over the Years</h2>
+    <img src="{{ url_for('static', filename='../static/trend_plot.png') }}" alt="Trend Plot">
+</section>
+
+<section class="plot-section">
+    <h2>Top Countries</h2>
+    <img src="{{ url_for('static', filename='../static/country_plot.png') }}" alt="Country Plot">
+</section>
+
+<section class="plot-section">
+<h2>Content Added Per Year</h2>
+<img src="{{ url_for('static', filename='yearly_content_plot.png') }}" alt="Yearly Content">
+</section>
+
+<section class="plot-section">
+<h2>Top 10 Directors</h2>
+<img src="{{ url_for('static', filename='top_directors_plot.png') }}" alt="Top Directors">
+</section>
+
+{% endblock %}
