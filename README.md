@@ -79,6 +79,11 @@ This project is a combination of data analysis and web development, built using:
        python app.py 
 
 
+  ##  Live Demo
+
+ [Click here to view the Netflix Dashboard](https://netflix-dashboard-iz7i.onrender.com)
+
+
 
 
 
