@@ -5,8 +5,7 @@ import seaborn as sns
 import os 
 
 app=Flask(__name__)
-df=pd.read_csv('C:\\Users\\manda\\OneDrive\\Desktop\\netflix_dashboard\\netflix_data.csv')
-
+df=pd.read_csv('netflix_data.csv')
 #create dictionary to store plots
 if not os.path.exists('static'):
     os.makedirs('static') 
